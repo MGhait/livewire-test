@@ -22,8 +22,9 @@
         @livewireStyles
     </head>
     <body class="font-sans antialiased dark:bg-black dark:text-white/50">
-        @livewire('post.show-post')
-        @livewire('inline-comp')
-        @livewireScripts
+    @livewire('test-properties')
+{{--        @livewire('post.show-post')--}}
+{{--        @livewire('inline-comp')--}}
+{{--        @livewireScripts--}}
     </body>
 </html>
