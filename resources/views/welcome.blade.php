@@ -23,9 +23,12 @@
     </head>
     <body class="font-sans antialiased dark:bg-black dark:text-white/50">
 {{--    @livewire('test-properties')--}}
-    @livewire('test-actions')
+{{--    @livewire('test-actions')--}}
 {{--        @livewire('post.show-post')--}}
 {{--        @livewire('inline-comp')--}}
 {{--        @livewireScripts--}}
+    @livewire('frist-event')
+    @livewire('second-event')
+    @livewire('third-event')
     </body>
 </html>
