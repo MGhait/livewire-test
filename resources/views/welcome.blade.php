@@ -22,7 +22,8 @@
         @livewireStyles
     </head>
     <body class="font-sans antialiased dark:bg-black dark:text-white/50">
-    @livewire('test-properties')
+{{--    @livewire('test-properties')--}}
+    @livewire('test-actions')
 {{--        @livewire('post.show-post')--}}
 {{--        @livewire('inline-comp')--}}
 {{--        @livewireScripts--}}
