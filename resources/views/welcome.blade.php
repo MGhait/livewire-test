@@ -27,8 +27,9 @@
 {{--        @livewire('post.show-post')--}}
 {{--        @livewire('inline-comp')--}}
 {{--        @livewireScripts--}}
-    @livewire('frist-event')
-    @livewire('second-event')
-    @livewire('third-event')
+{{--    @livewire('frist-event')--}}
+{{--    @livewire('second-event')--}}
+{{--    @livewire('third-event')--}}
+    @livewire('try-hooks')
     </body>
 </html>
