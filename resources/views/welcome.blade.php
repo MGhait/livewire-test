@@ -30,6 +30,7 @@
 {{--    @livewire('frist-event')--}}
 {{--    @livewire('second-event')--}}
 {{--    @livewire('third-event')--}}
-    @livewire('try-hooks')
+{{--    @livewire('try-hooks')--}}
+    @livewire('parent-component')
     </body>
 </html>
