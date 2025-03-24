@@ -21,5 +21,8 @@
                 @endforeach
             </tbody>
         </table>
+
+        {{ $posts->links() }}
+{{--        {{ $posts->links('vendor.livewire.custom') }}--}}
     @endif
 </div>
