@@ -36,7 +36,8 @@
 {{--    @livewire('validation-component')--}}
 {{--    @livewire('files-component')--}}
 {{--    @livewire('search-component')--}}
-    @livewire('flash-component')
+{{--    @livewire('flash-component')--}}
+    @livewire('loading-component')
 
     <livewire:scripts />
     <script src="{{ asset('assets') }}/dist/js/bootstrap.bundle.min.js"></script>
