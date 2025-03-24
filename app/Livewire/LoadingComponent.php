@@ -6,7 +6,11 @@ use Livewire\Component;
 
 class LoadingComponent extends Component
 {
-    public function submit()
+    public function submit1()
+    {
+
+    }
+    public function submit2()
     {
 
     }
