@@ -8,6 +8,10 @@ use Livewire\Component;
 class SearchComponent extends Component
 {
     public $search;
+//    protected $queryString = ['search']; this without options 'when nothing in search it'll be empty in url'
+    protected $queryString = [
+        'search' => ['except' => '', 'as' => 'find'],
+    ];
     public function render()
     {
         return view('livewire.search-component',[
