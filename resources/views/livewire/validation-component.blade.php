@@ -3,14 +3,14 @@
 {{--    @dump($errors)--}}
     <div class="mb-3">
         <label for="exampleInputEmail1" class="form-label">Email address</label>
-        <input type="email" class="form-control" wire:model="email">
+        <input type="email" class="form-control" wire:model.blur="email">
         @error('email')
             <span class="text-danger">{{ $message }}</span>
         @enderror
     </div>
     <div class="mb-3">
         <label for="exampleInputPassword1" class="form-label">Password</label>
-        <input type="password" class="form-control" wire:model="password">
+        <input type="password" class="form-control" wire:model.blur="password">
         @error('password')
             <span class="text-danger">{{ $message }}</span>
         @enderror

@@ -7,6 +7,7 @@ use function Symfony\Component\Translation\t;
 
 class ValidationComponent extends Component
 {
+    #[Validate]
     public $email;
     public $password;
     public $remember;
