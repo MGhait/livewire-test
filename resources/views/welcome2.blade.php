@@ -23,20 +23,12 @@
         @livewireStyles
     </head>
     <body class="font-sans antialiased dark:bg-black dark:text-white/50">
-{{--    @livewire('test-properties')--}}
-{{--    @livewire('test-actions')--}}
-{{--        @livewire('post.show-post')--}}
-{{--        @livewire('inline-comp')--}}
-{{--        @livewireScripts--}}
-{{--    @livewire('frist-event')--}}
-{{--    @livewire('second-event')--}}
-{{--    @livewire('third-event')--}}
-{{--    @livewire('try-hooks')--}}
-{{--    @livewire('parent-component')--}}
-{{--    @livewire('validation-component')--}}
-{{--    @livewire('files-component')--}}
-{{--    @livewire('search-component')--}}
-    @livewire('flash-component')
+        <div class="w-50 m-auto mt-4">
+            @if(session()->has('message'))
+                <div class="alert alert-success">{{ session('message') }}</div>
+            @endif
+            Hello This is welcome 2 page!!
+        </div>
 
     <livewire:scripts />
     <script src="{{ asset('assets') }}/dist/js/bootstrap.bundle.min.js"></script>
