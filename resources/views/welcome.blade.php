@@ -39,7 +39,8 @@
 {{--    @livewire('flash-component')--}}
 {{--    @livewire('loading-component')--}}
 {{--    @livewire('polling-component')--}}
-    @livewire('fetch-component')
+{{--    @livewire('fetch-component')--}}
+    @livewire('offline-component')
 
     <livewire:scripts />
     <script src="{{ asset('assets') }}/dist/js/bootstrap.bundle.min.js"></script>
