@@ -40,7 +40,8 @@
 {{--    @livewire('loading-component')--}}
 {{--    @livewire('polling-component')--}}
 {{--    @livewire('fetch-component')--}}
-    @livewire('offline-component')
+{{--    @livewire('offline-component')--}}
+    @livewire('dirty-component')
 
     <livewire:scripts />
     <script src="{{ asset('assets') }}/dist/js/bootstrap.bundle.min.js"></script>
